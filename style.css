@@ -64,7 +64,7 @@ header{
 }
 
 .window{
-    background-color: #4e4e4e;
+    background-color: #eeeeee;
     border: 2px solid black;
     border-radius: 20px;
     height: 130px;
@@ -90,6 +90,7 @@ header{
   cursor: pointer;
   width: 300px; /* Set the width to your desired size */
   height: 70px; /* Set the height to your desired size */
+  
 }
  button:active {
     transform: translateY(2px);
