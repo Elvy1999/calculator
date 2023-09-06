@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="app.js" defer></script>
 </head>
 <body>
     <div class="container">
         <header>Calculate with a view</header>
         <div class="calculator">
             <div class="window">
-                
+                <p id="previous_result"></p>
+                <p id="current_operation"></p>
             </div>
             <div class="button_container">
                 <div class="first_row">
@@ -29,7 +30,7 @@
                     <button id="4">4</button>
                     <button id="5">5</button>
                     <button id="6">6</button>
-                    <button id="x">x</button>
+                    <button id="*">*</button>
                 </div>
                 <div class="row">
                     <button id="1">1</button>
